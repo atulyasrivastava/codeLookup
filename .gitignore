@@ -1,0 +1,6 @@
+venv/
+target-repo/
+chunks.json
+__pycache__/
+*.pyc
+.env
