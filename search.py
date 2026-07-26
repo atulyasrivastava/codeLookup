@@ -34,6 +34,8 @@ def search(query, top_k=5):
         print(f"   {payload['code'][:200]}...")  # first 200 chars, keeps output readable
         print()
 
+    return results
+
 
 if __name__ == "__main__":
     query = " ".join(sys.argv[1:])
